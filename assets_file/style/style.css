@@ -116,15 +116,75 @@ img{
 .hero-container{
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
   align-items: center;
-background-image: url(../images/header_bg.png);
-background-repeat: no-repeat;
-background-position: right bottom;
-margin: 4rem 14rem ;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  }
+
+/* herostyle */
+
+.hero{
+  margin-left: 14rem;
+}
+
+
+.title_1{
+  font-size: 2rem;
+  color: black;
+  font-weight: 500;
+}
+
+.title_2{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.descripion{
+  font-size: 1.2rem;
+}
+
+/* action style */
+
+.action{
+  padding: 1.4rem 0rem;
+  display: flex;
+  
 
 }
 
 
+.btn_cv{
+  background-color: #FD6E0A;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.2rem 2.2rem;
+  border: none;
+  border-radius: 5px;
+  margin-right:1rem ;
+}
 
+.cv_i{
+  padding: 0px .4rem;
+}
+
+
+.btn_call{
+  background-color: #FD6E0A;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.2rem 2.2rem;
+  border: none;
+  border-radius: 5px;
+  margin: 0px 2rem;
+}
+
+.call_i{
+  padding: 0px .4rem;
+}
 
