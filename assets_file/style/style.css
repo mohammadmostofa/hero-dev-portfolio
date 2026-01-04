@@ -24,6 +24,11 @@
   border-radius: 5px;
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
+
 
 /* header section style */
 
@@ -110,7 +115,16 @@
 
 .hero-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border: 1px solid black;
   align-items: center;
+background-image: url(../images/header_bg.png);
+background-repeat: no-repeat;
+background-position: right bottom;
+margin: 4rem 14rem ;
+
 }
+
+
+
+
