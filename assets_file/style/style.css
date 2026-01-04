@@ -13,6 +13,7 @@
 }
 
 
+
 /* btn style */
 .btn{
   background-color: #FD6E0A;
@@ -145,6 +146,7 @@ img{
 
 .descripion{
   font-size: 1.2rem;
+  
 }
 
 /* action style */
@@ -194,6 +196,7 @@ img{
 .main_section{
 
   margin: 9rem 14rem;
+  background-color: #FFF8F3;
  
 }
 
@@ -205,8 +208,43 @@ img{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.2rem ;
+  padding: 8rem 9.8rem ;
+  border-radius:10px;
+
+  
   
 }
 
+.descripion_1{
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: normal;
+  padding: 1rem 0rem;
+}
 
+
+.information{
+
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ justify-content: center;
+ align-items: center;
+ margin-top: 2rem;
+}
+
+.details{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.details h5{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  padding: .4rem;
+}
