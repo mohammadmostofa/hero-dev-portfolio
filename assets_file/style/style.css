@@ -26,4 +26,14 @@
   display: flex;
   justify-content: space-between;
   padding: 4rem 14rem ;
+  align-items: center;
 }
+
+
+/* nav_title style */
+
+.nav_title{
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
