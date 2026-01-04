@@ -17,3 +17,34 @@
 
 }
 
+
+
+@media screen and (min-width: 375px) and (max-width: 765px) {
+  nav.nav_bar {
+    flex-direction: column;
+
+  }
+
+
+  nav.nav_bar {
+    padding: 10px 12px;
+  }
+
+  .nav_title {
+    font-size: 15px;
+    white-space: nowrap;
+    word-break: normal;
+    width: auto;
+  }
+
+  .btn_c{
+    margin: 0;
+    padding: 6px 20px;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .nav_menu li{
+   padding: 1.2rem 1.2rem;
+  }
+}
