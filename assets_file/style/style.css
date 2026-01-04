@@ -12,6 +12,19 @@
   box-sizing: border-box;
 }
 
+
+/* btn style */
+.btn{
+  background-color: #FD6E0A;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.2rem 2.2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+
 /* header section style */
 
 #header_section{
@@ -41,4 +54,18 @@
  
 .single_alpha{
   color: #FD6E0A;
+}
+
+/* nav_menu style */
+
+.nav_menu{
+ 
+  display: flex;
+  
+}
+
+.nav_menu li{
+  list-style: none;
+  padding:  1.2rem 2.2rem;
+
 }
