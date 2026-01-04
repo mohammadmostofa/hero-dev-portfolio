@@ -1,9 +1,24 @@
 
+/*desktop responsive */
+
+@media screen and (min-width:1024px) and (max-width:1600px) {
+
+  .nav_bar{
+    padding: 1rem 5rem;
+  }
+
+  .hero{
+    margin-left: 5rem;
+  }
+  
+}
+
 /* tab responsive */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+@media screen and (min-width: 768px) and (max-width: 1023.9px) {
   
   nav.nav_bar {
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
   }
 
   span.nav_title{
@@ -14,6 +29,34 @@
     font-size: 1rem;
     
   }
+
+
+  /* hero */
+
+.hero{
+  margin-left: 4rem;
+}
+
+.title_1{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.title_2{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.btn_cv{
+  padding: .6rem 1.4rem;
+  font-size: 1rem;
+}
+
+.btn_call{
+  padding: .6rem 1.4rem;
+  font-size: 1rem;
+  margin: 0;
+}
 
 }
 
@@ -47,4 +90,45 @@
   .nav_menu li{
    padding: 1.2rem 1.2rem;
   }
+
+
+  /* hero */
+
+  .hero{
+
+    margin-left:1rem;
+
+  }
+
+  .title_1{
+  font-size: .6rem;
+  font-weight: bold;
+}
+
+.title_2{
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.descripion{
+  font-size :0.9rem;
+  width: 80%;
+}
+
+.btn_cv{
+  padding: .3rem 1rem;
+  font-size: 1rem;
+}
+
+.btn_c{
+  padding: .3rem 1rem;
+  font-size: 1rem;
+  margin: 1.4rem;
+
+}
+
+.hero-container{
+  flex-direction: column;
+}
+
 }
