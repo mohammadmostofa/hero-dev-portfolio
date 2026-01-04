@@ -28,7 +28,7 @@
 /* header section style */
 
 #header_section{
-  height: 52rem;
+  min-height: 52rem;
  background-color: #FFF8F3;
  background-image: url(../images/developer.png);
  background-position:left;
@@ -102,4 +102,15 @@
 
   background-color: #ee6200;
 
+}
+
+
+
+/* hero conrainer */
+
+.hero-container{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  align-items: center;
 }
