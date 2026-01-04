@@ -4,4 +4,18 @@
   font-optical-sizing: auto;
 }
 
+/* universal selector setup */
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header section style */
+
+#header_section{
+  height: 52rem;
+ background-color: #FFF8F3;
+ 
+}
