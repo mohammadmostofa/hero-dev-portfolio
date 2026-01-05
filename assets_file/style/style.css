@@ -196,7 +196,7 @@ img{
 .main_section{
 
   margin: 9rem 14rem;
-  background-color: #FFF8F3;
+  
  
 }
 
@@ -210,6 +210,7 @@ img{
   align-items: center;
   padding: 8rem 9.8rem ;
   border-radius:10px;
+  background-color: #FFF8F3;
 
   
   
@@ -247,4 +248,53 @@ img{
   font-weight: bold;
   color: black;
   padding: .4rem;
+}
+
+
+
+/* portpolio_section */
+
+.portpolio_section{
+  text-align: center;
+  margin: 8rem 0rem;
+}
+
+
+/* portpolo */
+.portpolio{
+  display:grid;
+  grid-template-columns: repeat(4 ,1fr);
+}
+
+/* port style */
+
+.port{
+
+  display: flex;
+  flex-direction: column;
+  padding:2.5rem;
+  margin:1.8rem;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px rgb(1, 78, 130);
+  text-align: left;
+}
+
+
+/* portpolio_img style */
+.Portpolio_img{
+  width: 2rem;
+  height: 2rem;
+}
+
+/* port_title */
+
+.port_title{
+  font-size: 2rem ;
+  color: black;
+  font-weight: bold;
+  margin: 2rem 0rem;
+}
+
+.port_description{
+  font-size: 1.2rem;
 }
