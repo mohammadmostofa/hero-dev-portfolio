@@ -304,7 +304,7 @@ img{
 .resume_head{
 
   text-align: center;
-  font-size: 3.3rem;
+  font-size:2.1rem;
   font-weight: bold;
 }
 
@@ -314,7 +314,61 @@ img{
 
   display: grid;
   grid-template-columns: repeat(2 ,1fr);
-  justify-content:space-between;
+  justify-content:center;
   margin: 8rem  0rem;
   
+  
+}
+
+
+
+
+.title_E{
+
+  font-size: 1.7rem;
+  margin: 1rem 0rem;
+}
+
+/* education style */
+
+.education{
+
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  margin-right: 2rem;
+
+}
+.Exprience{
+
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  margin-right: 2rem;
+
+}
+
+
+/* Master_title style */
+
+.Master_title{
+
+  font-size: 1rem;
+  font-weight: 800;
+  color: black;
+  margin: 1.4rem 0rem;
+
+}
+
+
+
+.sub_title{
+
+  font-size: 1rem;
+  color: black;
+  margin: .5rem;
+}
+
+.Master_des{
+
+  line-height: 1.8rem;
+
 }
