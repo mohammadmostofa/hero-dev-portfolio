@@ -375,3 +375,13 @@ img{
   padding-bottom: 1rem;
 
 }
+
+
+/* resume_btn */
+
+
+.resume_btn{
+display: flex;
+justify-content: center;
+margin-bottom: 8rem;
+}
