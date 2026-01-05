@@ -223,4 +223,11 @@
   padding: 1rem;
 }
 
+.resume_section {
+   
+    grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  padding: 0rem 1.4rem;
+}
+
 }

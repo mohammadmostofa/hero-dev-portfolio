@@ -371,4 +371,7 @@ img{
 
   line-height: 1.8rem;
 
+  border-bottom: 1px solid rgb(222, 220, 220);
+  padding-bottom: 1rem;
+
 }
