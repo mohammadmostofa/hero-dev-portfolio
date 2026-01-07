@@ -106,7 +106,7 @@
 
 
 
-@media screen and (min-width: 375px) and (max-width: 765px) {
+@media screen and (min-width: 360px) and (max-width: 765px) {
   nav.nav_bar {
     flex-direction: column;
 
