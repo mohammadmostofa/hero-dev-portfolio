@@ -234,4 +234,17 @@
   padding: 0rem 1.4rem;
 }
 
+
+.footer_container {
+    padding: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: column;
 }
+
+
+
+}
+
+

@@ -394,3 +394,85 @@ display: flex;
 justify-content: center;
 margin-bottom: 8rem;
 }
+
+/* footer section style */
+
+.footer_section{
+
+  background-color: #FFF8F3;
+  margin-top:4rem 14rem;
+
+}
+
+
+.footer_container{
+  padding: 8rem 14rem;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.footer_content{
+ margin-right: 4rem;
+}
+
+.footer_title{
+ 
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: black;
+
+}
+
+.footer_description{
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  margin: .5rem 0rem;
+
+}
+
+.footer_icon{
+  display: grid;
+  grid-template-columns: repeat(3,3rem);
+margin-top: 2rem;
+}
+
+.footer_icon li{
+  list-style: none;
+}
+
+.footer_icon a{
+  font-size: 1.2rem;
+  color: #FD6E0A;
+ 
+}
+
+/* form_container */
+.form_container > input:focus{
+  outline: none;
+  
+}
+
+.form_container > input::placeholder{
+  text-align: start;
+  border: none;
+}
+
+.form_container >input[type="text"] {
+ padding: 1rem 4rem;
+ margin-bottom: 2rem;
+ border: none;
+}
+.form_container >input[type="email"] {
+ padding: 1rem 4rem;
+ margin-bottom: 2rem;
+ border: none;
+}
+.form_container >textarea{
+ padding: 1rem 4rem;
+ margin-bottom: 2rem;
+ outline: none;
+ border: none;
+}
+
+
